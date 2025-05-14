@@ -1,7 +1,9 @@
 # Credit_risk_classification
 ## Overview of the Analysis
 
-The purpse of this analysis is to use supervised machine learning to create a model to predict the credibility of the borrowers and if the loan is healthy (0) or high risk(1) based on different financial parameters. The financial information included in this dataset are: loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debt. We are trying to predict the loan status which is binary, i.e if it is a healthy loan (0) and will be returned by borrower, or if it is a high risk loan (1) and there is risk of defaulting. The lending dataset had 77,536 data values with 75,036 being healthy loans and 2,500 being high risk loans.
+The purpse of this analysis is to use supervised machine learning to create a model to predict the credibility of the borrowers and if the loan is healthy (0) or high risk(1) based on different financial parameters. 
+The financial information included in this dataset are: loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debt. We are trying to predict the loan status which is binary, i.e if it is a healthy loan (0) and will be returned by borrower, or if it is a high risk loan (1) and there is risk of defaulting.
+The lending dataset had 77,536 data values with 75,036 being healthy loans and 2,500 being high risk loans.
 
 The stages of machine learning  process used in this analysis are:
 * The data was pre-processed to create the labels and features.The 'loan_status' column was set as y, and then features (X) DataFrame was created from the remaining columns.
