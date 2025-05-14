@@ -34,3 +34,7 @@ The logistic regression model does a good job in predicting Healthy Loans with 1
 
 However, there is a class imbalance of 18759 healthy loans, and only 625 high risk ones used in the model. So, the high accuracy may be misleading as there are few instances of the high risk loans and the model can misclassifying healthy loans as high risk ones. This can be improved by adding more of the high risk loans in the training or resampling to improve the precision of high risk loans. 
 It is more important to predict the high risk loans as it can lead to finanicial loss if the borrower defaults if not prevented on time.
+
+## References
+
+The assignment was completed with the help of inclass resources. A random forest classification was done for model comparison
