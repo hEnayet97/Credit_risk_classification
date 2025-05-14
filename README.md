@@ -34,7 +34,7 @@ The stages of machine learning  process used in this analysis are:
 Although, both models have an overall accuracy of 99%, the **logestic regression model** is better than the random forest for credit risk analysis.
 The logistic regression model does a good job in predicting Healthy Loans with 100% precision and High-Risk Loans with 87% precision. It has a low false negative as well and most high risk loans are actually caught by the model (95% recall).
 
-However, there is a class imbalance of 18759 healthy loans, and only 625 high risk ones used in the model. So, the high accuracy may be misleading as there are few instances of the high risk loans and the model can misclassifying healthy loans as high risk ones. This can be improved by adding more of the high risk loans in the training or resampling to improve the precision of high risk loans. 
+However, there is a class imbalance of 18,759 healthy loans, and only 625 high risk ones used in the model. So, the high accuracy may be misleading as there are few instances of the high risk loans and the model can misclassifying healthy loans as high risk ones. This can be improved by adding more of the high risk loans in the training or resampling to improve the precision of high risk loans. 
 It is more important to predict the high risk loans as it can lead to finanicial loss if the borrower defaults if not prevented on time.
 
 ## References
